@@ -40,5 +40,3 @@ export async function POST(req: Request) {
   console.log(stream);
   return new Response(stream);
 }
-
-export const name = "vis";
